@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(cors({
   // origin: 'http://localhost:5173', // your frontend origin
-  origin: 'https://contact-manager-client-seven.vercel.app/', // your frontend origin
+  origin: 'https://contact-manager-client-seven.vercel.app', // your frontend origin
   credentials: true, // allow sending cookies
 }));
 
